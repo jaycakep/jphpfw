@@ -35,6 +35,14 @@ Simple - fast and lightweight PHP framework for routing HTTP requests, measuring
 - Sets the database connection parameters.
 - Tests the database connection.
 
+### `htaccess`
+
+Provides URL rewriting rules:
+
+- Removes the index.php file from the URL.
+- Handles 404 errors for non-existent URLs.
+- Enforces HTTPS connections by redirecting to the HTTPS version of the URL.
+
 ## Customization
 
 - Modify the file structure and routing logic as needed for your specific application.
@@ -46,3 +54,4 @@ Simple - fast and lightweight PHP framework for routing HTTP requests, measuring
 
 - For more detailed information on specific functions and techniques used in this script, refer to the [PHP documentation](https://www.php.net/docs.php).
 - For RedbeanPHP documentation, visit [RedbeanPHP](https://www.redbeanphp.com/).
+- For Apache .htaccess configuration, refer to the Apache documentation: [https://httpd.apache.org/docs/current/mod/mod_rewrite.html]: (<https://httpd.apache.org/docs/current/mod/mod_rewrite.html>).
