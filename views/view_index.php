@@ -3,20 +3,20 @@
         <div class="col col-lg-2">
         </div>
         <div class="col-md-auto border bg-light justify-content-md-center gx-5 p-5">
-            <h3>Halo, selamat datang!</h3>
-            <p>Silahkan masukkan username dan password Anda.</p>
+            <h3></h3><?php echo($selamatDatang); ?></h3>
+            <p><?php echo($loginMessages); ?></p>
             <!-- Display Login User -->
             <form class="row g-2">
                 <div class="row-auto">
-                    <label for="username" class="form-label">Username</label>
+                    <label for="username" class="form-label"><?php echo($userName); ?></label>
                     <input type="text" class="form-control" id="username" name="username" required>
                 </div>
                 <div class="row-auto">
-                    <label for="password" class="form-label">Password</label>
+                    <label for="password" class="form-label"><?php echo($password); ?></label>
                     <input type="text" class="form-control" id="password" name="password" required>
                 </div>
                 <div>
-                    <button type="submit" class="btn btn-primary">Login</button>
+                    <button type="submit" class="btn btn-primary"><?php echo($loginButton); ?></button>
                 </div>
             </form>
         </div>
