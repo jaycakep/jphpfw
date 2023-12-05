@@ -1,8 +1,12 @@
 # Jay PHP Framework
 
-This project demonstrates a PHP framework for routing HTTP requests to controller actions, measuring execution time, connecting to a database using RedBeanPHP, and implementing a simple template system for rendering views.
+## Project Background
+
+This project is a result of my experience in developing web-based software using PHP. Having worked with various existing frameworks, I observed that many of them tend to be excessively complex, featuring numerous functionalities that are rarely, if ever, utilized in practical scenarios. These superfluous features, while part of the framework package, contribute to unnecessary complexity.
 
 ## Project Objectives
+
+The primary goal of developing this project is to empower developers to create software rapidly and efficiently. The emphasis is on minimizing complexity, optimizing resource usage, facilitating seamless database access, and simplifying code structure. The overarching aim is to provide a framework that is not only user-friendly but also easy to maintain in the long run.
 
 The main objectives of this PHP framework are:
 
@@ -25,7 +29,7 @@ Follow these steps to set up the PHP framework in your project:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-project.git
+   git clone https://github.com/jaycakep/jphpfw.git
    ```
 
 2. Navigate to the Project Directory:
@@ -114,7 +118,6 @@ Follow these steps to set up the PHP framework in your project:
 ### `views/template/view_footer.php`
 
 - Defines the footer template for all pages.
-- Displays copyright information.
 
 ### `.htaccess`
 
