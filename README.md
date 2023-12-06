@@ -1,4 +1,4 @@
-# Jay PHP Framework
+# J PHP Framework
 
 ## Project Background
 
